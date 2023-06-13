@@ -6,12 +6,19 @@ Game has following components:
 2) SessionListener: Saves and Invalidates the session when the session is destroyed.
 2) Bean - GameNumber: holds game structure as variables along with setters and getters and provides game functionalities.
 3) JSP's:
+
 	a) home.jsp: Home page to start the game, it will ask for user name. User name is used to identify game user.
+	
 	b) round1.jsp: Gets the number for round1 as per assignment specification.
+	
 	c) round2.jsp: Gets the numbers for round2 as per assignment specification.
+	
 	d) round3.jsp: Gets the numbers for round3 as per assignment specification.
+	
 	e) round4.jsp: Gets the numbers for round4 as per assignment specification.
+	
 	f) correct.jsp: This page is called when user accepts the offer or when the game has ended.
+	
 4) web.xml - defines mappings between URL paths and the servlets that handle requests with those paths
 5) log.ser - saves game data
 
@@ -22,9 +29,13 @@ Game has following components:
 2) GameNumber - Bean class, defines the game structure and processing functions such as computation of offer, comparision of numbers entered in the round with target number, saving data to file, searching and loading data from file.
 3) JSP -
 	a) home.jsp - as per the name takes user to home page of the game where user name is accepted.
+	
 	b) round1.jsp - shows a screen to capture the round1 number, validates the number entered by the user to ensure it meets assignment specs of between 1 to 11 and no repeatetion of previously entered numbers. It also provides means for accepting the offer and exiting the game or continuing with the game. Going back is disabled at this stage.
+	
 	c) round2.jsp, round3.jsp - Apart from all the controls of round1.jsp it also prevents change of game state incase browser refresh is clicked.
+	
 	d) round4.jsp - all the controls of above round pages are applied here. clicking on continue on this page will take the user to correct.jsp
+	
 4)log.ser - used to save the game data as game array and load the game data into game object.	
 
 ************************************************************************************************************************

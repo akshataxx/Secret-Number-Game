@@ -44,7 +44,7 @@ Inorder to save the game, player needs to click on the save game button during t
 
 ************************************************************************************************************************
 
-• The URL the marker needs to visit to start the application
+• The URL to start the application
 The Secret number game can be run using URL  http://localhost:8080/c3309266_assignment2/home.jsp
 
 ************************************************************************************************************************

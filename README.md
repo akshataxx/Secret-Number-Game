@@ -28,6 +28,7 @@ Game has following components:
 1) GameServlet - is used to control the display of jsp based on the game stage e.g. during round1 it directs the user to round1 page. It also controls the processing of the game and ensures user is updated with the right messages.
 2) GameNumber - Bean class, defines the game structure and processing functions such as computation of offer, comparision of numbers entered in the round with target number, saving data to file, searching and loading data from file.
 3) JSP -
+
 	a) home.jsp - as per the name takes user to home page of the game where user name is accepted.
 	
 	b) round1.jsp - shows a screen to capture the round1 number, validates the number entered by the user to ensure it meets assignment specs of between 1 to 11 and no repeatetion of previously entered numbers. It also provides means for accepting the offer and exiting the game or continuing with the game. Going back is disabled at this stage.
